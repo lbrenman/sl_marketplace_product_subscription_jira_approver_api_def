@@ -1,0 +1,51 @@
+title: jiraWebhookIssueUpdateBody
+x-stoplight:
+  id: abb9sfvkxayj7
+type: object
+properties:
+  timestamp:
+    type: string
+    format: date-time
+  webhookEvent:
+    type: string
+  issue_event_type_name:
+    type: string
+  user:
+    type: object
+    properties:
+      self:
+        type: string
+        format: uri
+      accountId:
+        type: string
+      displayName:
+        type: string
+      active:
+        type: boolean
+      timeZone:
+        type: string
+      accountType:
+        type: string
+      avatarUrls:
+        type: object
+  issue:
+    type: object
+    properties:
+      id:
+        type: string
+      self:
+        type: string
+        format: uri
+      key:
+        type: string
+      fields:
+        type: object
+  changelog:
+    type: object
+    properties:
+      id:
+        type: string
+      items:
+        type: array
+        items:
+          type: object
