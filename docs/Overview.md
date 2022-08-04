@@ -18,7 +18,7 @@ The Jira webhook setup is shown below:
 
 A sample Jira webhook payload looks like:
 
-```
+```javascript
 {
   "timestamp": 1659632305737,
   "webhookEvent": "jira:issue_updated",
@@ -229,4 +229,5 @@ A sample Jira webhook payload looks like:
     }]
   }
 }
+
 ```
