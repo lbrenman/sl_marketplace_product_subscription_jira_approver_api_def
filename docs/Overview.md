@@ -2,9 +2,9 @@
 stoplight-id: 23n90s3r1tqit
 ---
 
-# Jira Issue Update Webhook Handler API Overview
+# Overview
 
-This API specification document defines an API that can be a Jira webhook handler for an Amplify Marketplace Product SubscriptionApproval workflow.
+This API is used to approve/reject an Amplify Marketplace Product Subscription and is a Jira webhook handler for an incident update webhook.
 
 The API verifies that certain Jira custom fields are set and based on their value, approves or rejects the Amplify Marketplace Product Subscription request, sends a message to MS Teams and adds a comment to the Jira incident.
 
