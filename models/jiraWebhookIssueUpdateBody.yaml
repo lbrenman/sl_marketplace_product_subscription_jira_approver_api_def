@@ -5,7 +5,6 @@ type: object
 properties:
   timestamp:
     type: string
-    format: date-time
   webhookEvent:
     type: string
   issue_event_type_name:
