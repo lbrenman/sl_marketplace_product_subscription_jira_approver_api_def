@@ -27,7 +27,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: ../models/jiraWebhookIssueUpdateBody.yaml
+                type: object
         '400':
           description: Bad Request
           content:
@@ -47,7 +47,6 @@ paths:
         content:
           application/json:
             schema:
-              type: object
-              properties: {}
+              $ref: ../models/jiraWebhookIssueUpdateBody.yaml
 components:
   schemas: {}
